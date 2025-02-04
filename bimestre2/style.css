@@ -58,12 +58,16 @@ section{
     gap: 15rem;
 }
 
+/*HERO*/
+
 .home-conteudo{
     display: inline-block;
-    align-items: baseline;
-    text-align: left;
+    align-items: right;
+    text-align: right;
     justify-content: center;
     margin-top: 3rem;
+    padding: 40 4%;
+    gap: 50px;
 }
 
 span{
@@ -71,22 +75,33 @@ span{
 }
 
 .home-conteudo h1{
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: 700;
     margin-top: 1.5rem;
     line-height: 1;
+    justify-content: last baseline;
+    text-align: justify;
 
 }
 
-.img-home{
-    border-radius: 40%;
+.home-conteudo p{
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: left;
+    margin-left: auto;
+    
+}
 
+.img-home{
+    border-radius: 60%;
+    align-items: ;
+  
 }
 .img-home img{
     position: relative;
     top: 4rem;
-    width: 32vw;
-    border-radius: 40%;
+    width: 22vw;
+    border-radius: 60%;
     cursor: pointer;
     transition: 0.4s ease-in-out;
 }
@@ -96,3 +111,4 @@ span{
                 0 0 50px var(--main-color),
                 0 0 100px var(--main-color);
 }
+
